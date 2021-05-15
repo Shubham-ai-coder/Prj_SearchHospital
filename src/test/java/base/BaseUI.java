@@ -69,7 +69,7 @@ public class BaseUI {
 		takeScreenShot();
 		// Assert.fail(reportString);
 	}
-
+//take screenshot
 	  public static void takeScreenShot() { TakesScreenshot takeScreenShot =
 	  (TakesScreenshot) driver; File sourceFile =
 	  takeScreenShot.getScreenshotAs(OutputType.FILE);
